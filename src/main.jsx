@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Calculadora from './calculadora.jsx'
+import Calculadora from './components/calculadora.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
